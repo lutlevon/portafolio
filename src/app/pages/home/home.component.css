@@ -1,0 +1,13 @@
+.color{
+    background-color: green;
+}
+.about-color{
+    background-color: blue;
+}
+.white{
+    color: white;
+}
+
+.header-img {
+    border-radius: 50%;
+}
