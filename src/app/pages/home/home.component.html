@@ -1,5 +1,5 @@
-<div class="h-auto w-3/6 mx-auto white py-14">
-    <div class="flex flex-row mx-20">
+<div class="h-auto w-6/12 mx-auto white py-14">
+    <div class="flex flex-row ">
         <div class="basis-7/12 flex flex-col justify-center items-center">            
             <h1 class="text-3xl font-bold">
                 Luis Fernando Guzmán García
@@ -11,26 +11,5 @@
         </div>
     </div>
     <app-navbar></app-navbar>
-    <div class="flex flex-col px-20 my-5">
-        <h2 class="text-2xl block my-5 font-bold">About</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maiores sint accusantium iure aliquam eos, earum laborum! Optio, sint id ducimus voluptates corporis libero quis, tempora doloribus, magni in quam!
-        Labore porro voluptate voluptas animi iure minima ab. Est magni optio doloremque architecto tempora suscipit dolor dolore molestias blanditiis quaerat nesciunt itaque eligendi aut, veritatis delectus id quia quam unde?</p>
-    </div>
-    <h2 class="text-2xl block mb-5 mt-10 font-bold mx-20">work expirience</h2>
-    
-    @for ( work of works; track work.companyName) {
-        <div class="flex flex-row px-20 my-8">
-            <div class="basis-2/6">{{ work.dates }}</div>
-            <div class="basis-4/6 flex flex-col">
-                <h3 class="font-bold text-lg">{{ work.companyName }}</h3>
-                <ul class="list-disc">
-                    @for( item of work.descriptions; track item){
-                        <li class="ms-6">
-                            {{ item }}
-                        </li>
-                    }
-                </ul>
-            </div>
-        </div>
-    }
+    <router-outlet></router-outlet>
 </div>
