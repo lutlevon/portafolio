@@ -1,53 +1,35 @@
-<!-- <div class="container mx-auto">
-    <div class="grid grid-cols-6 gap-4">
-
-        <div class="col-start-2 col-end-6 flex color">
-            <div class="flex-auto flex justify-center items-center">
-                <h1 class="white text-4xl">
-                    Luis Fernando Guzman Garcia
-                </h1>
-            </div>
-            <div class="flex-auto flex header-img items-center">
-                <img class="max-h-40 header-img" src="../../../assets/img/pixel-von.jpeg" alt="">
-            </div>
-        </div>
-    
-        <div class="about col-start-2 col-end-6 flex flex-col mt-11 white">
-            <h2 class="text-2xl my-3">About</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repellendus quas placeat vero impedit consequuntur provident nesciunt, deleniti, reiciendis officiis reprehenderit quidem alias molestiae et asperiores cupiditate itaque, ex dolorum.
-                Enim ad officiis, non excepturi quaerat commodi aut provident qui nisi nulla libero molestias expedita cupiditate eos sapiente recusandae laboriosam, placeat totam quidem laudantium iste, amet ab vel error. Quo?
-            </p>
-    
-        </div>
-    </div>
-</div> -->
-
-<div class="h-screen w-3/6 mx-auto white">
-    <div class="flex flex-row">
+<div class="h-auto w-3/6 mx-auto white py-14">
+    <div class="flex flex-row mx-20">
         <div class="basis-7/12 flex flex-col justify-center items-center">            
             <h1 class="text-3xl font-bold">
-                Luis Fernando Guzman Garcia
+                Luis Fernando Guzmán García
             </h1>
-            <p>Fullstack developer</p>
+            <p>Desarrollador Fullstack</p>
         </div>
         <div class="header-img basis-5/12 flex flex-row justify-center">
             <img class="max-h-40 header-img" src="../../../assets/img/pixel-von.jpeg" alt="">
         </div>
     </div>
+    <app-navbar></app-navbar>
     <div class="flex flex-col px-20 my-5">
-        <h2 class="text-xl block my-5 font-bold">About</h2>
+        <h2 class="text-2xl block my-5 font-bold">About</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maiores sint accusantium iure aliquam eos, earum laborum! Optio, sint id ducimus voluptates corporis libero quis, tempora doloribus, magni in quam!
         Labore porro voluptate voluptas animi iure minima ab. Est magni optio doloremque architecto tempora suscipit dolor dolore molestias blanditiis quaerat nesciunt itaque eligendi aut, veritatis delectus id quia quam unde?</p>
     </div>
-    <h2 class="text-xl block mb-5 mt-10 font-bold mx-20">work expirience</h2>
+    <h2 class="text-2xl block mb-5 mt-10 font-bold mx-20">work expirience</h2>
     
     @for ( work of works; track work.companyName) {
-        <div class="flex flex-row px-20">
+        <div class="flex flex-row px-20 my-8">
             <div class="basis-2/6">{{ work.dates }}</div>
             <div class="basis-4/6 flex flex-col">
-                <h3 class="font-bold">{{ work.companyName }}</h3>
-                <p>{{ work.descriptions }}</p>
+                <h3 class="font-bold text-lg">{{ work.companyName }}</h3>
+                <ul class="list-disc">
+                    @for( item of work.descriptions; track item){
+                        <li class="ms-6">
+                            {{ item }}
+                        </li>
+                    }
+                </ul>
             </div>
         </div>
     }
