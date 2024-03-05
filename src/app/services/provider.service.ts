@@ -36,7 +36,7 @@ export class ProviderService {
       ]
     },{
       companyName: 'It-Seekers',
-      dates: 'Julio - Actualmente',
+      dates: 'Julio 2023 - Actualmente',
       position: 'Desarrollador frontend',
       descriptions:[
         "Desarrollador frontend con Angular, trabajando en proyectos para Assurant.",

@@ -1,4 +1,4 @@
-<nav class="flex flex-row h-8 w-full mt-14">
+<nav class="flex flex-row h-8 w-full my-14">
     <a id="about" class="nav-item border-r-2 border-l-2 rounded-sm basis-1/3 flex justify-center items-center" 
     [routerLink]="'about'"
     [routerLinkActive]="'selected'">
@@ -9,8 +9,9 @@
     [routerLinkActive]="'selected'">
         Experiencia laboral
     </a>
-    <div class="nnav-item border-r-2 border-l-2 rounded-sm basis-1/3 flex justify-center items-center">
-        <a href="">Contacto</a>
-    </div>
-    <!-- <div class=""></div> -->
+    <a class="nav-item rounded-sm basis-1/3 flex justify-center items-center"
+    [routerLink]="'contact'"
+    [routerLinkActive]="'selected'">
+        Contacto
+    </a>
 </nav>
