@@ -1,0 +1,7 @@
+.image-transition {
+    transition: opacity 0.5s ease-in-out;
+}
+  
+.image-hidden {
+    opacity: 0;
+}

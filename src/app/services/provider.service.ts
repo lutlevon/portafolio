@@ -12,10 +12,12 @@ export class ProviderService {
       dates: 'Octubre 2020 - Mayo 2021',
       position: 'Desarrollador Frontend',
       descriptions: [
-        "Encargado de desarrollar un sitio de registros históricos para el Centro de Investigación y Docencia Económicas (CIDE).",
-        "Diseño e implementación de gráficos estadísticos utilizando la librería Chart.js.",
-        "Integración y consumo de datos almacenados en colecciones de MongoDB.",
-        "Refactorización de componentes y servicios para mejorar la limpieza y eficiencia del código."
+        "Desarrollador Frontend especializado en Angular.",
+        "Colaboración en la creación de un sitio con información detallada sobre sectores como minería, turismo y pesca.",
+        "Integración de datos desde una base de datos no relacional de MongoDB para generar gráficas de registros históricos de México.",
+        "Refactorización de componentes y métodos para mejorar la dinámica y eficiencia del código.",
+        "Implementación de gráficas visuales utilizando la librería Chart.js.",
+        "Contribución en el desarrollo de métodos en el backend para extraer información de diversas colecciones en la base de datos."
       ]
     },
     {
@@ -23,27 +25,26 @@ export class ProviderService {
       dates: 'Mayo 2021 - Abril 2023',
       position: 'Desarrollador fullstak',
       descriptions: [ 
-        "Creación de frontends con Angular para sistemas de administración empresarial (CRUD).",
-        "Diseño y maquetación de sitios publicitarios utilizando Angular.",
-        "Desarrollo de backend con .NET, utilizando arquitectura de microservicios para diversos proyectos.",
-        "Desarrollador externo para kavak",
-        "Participación activa en el equipo de expansión de KAVAK, adaptando el sitio para lanzamientos en Argentina, Chile, Colombia y Perú.",
-        "Implementación de metodología ágil Scrum, utilizando Jira como principal herramienta de gestión de tareas.",
-        "Desarrollo de backend con Node.js para la integración de herramientas como Mercado Libre con el sitio de KAVAK.",
-        "Refactorización de componentes de Angular para ajustarse a las necesidades de los nuevos países.",
-        "Creación de backend con Node.js para nuevas implementaciones, asegurando el cumplimiento de normativas locales.",
-        "Desarrollo de backend mediante la arquitectura de microservicios."
+        "Desarrollador Full Stack con experiencia en Angular y Node.js.",
+        "Participación como desarrollador externo en el equipo de expansión internacional para Kavak.",
+        "Colaboración en el desarrollo en Argentina, implementando un backend para conectar el catálogo de Kavak con las publicaciones de Mercado Libre.",
+        "Trabajo en lanzamientos en Colombia, Perú y Chile, adaptando componentes y métodos en el frontend y backend para satisfacer las necesidades específicas de cada país.",
+        "Participación en proyectos de desarrollo de sitios administrativos para la gestión de inventarios, clientes y otros aspectos operativos.",
+        "Colaboración en la creación de sitios informativos según los requisitos específicos de los clientes.",
+        "Experiencia en metodología ágil Scrum, utilizando Jira para la gestión de tareas, sprints y ceremonias del proceso.",
+        "Participación en la implementación de la gestión de pagos por país utilizando microservicios."
       ]
     },{
       companyName: 'It-Seekers',
       dates: 'Julio 2023 - Actualmente',
       position: 'Desarrollador frontend',
       descriptions:[
-        "Desarrollador frontend con Angular, trabajando en proyectos para Assurant.",
-        "Adaptación de un sitio para generar reclamos de garantías.",
-        "Realización de refactorizaciones para mejorar el proyecto.",
-        "Desarrollo de un apartado para que el cliente pueda configurar diferentes partes dinámicas del sitio.",
-        "Implementación del sitio para clientes de Brasil, Chile y Colombia, adaptándolo a las necesidades específicas de cada cliente."      
+        "Desarrollador Frontend con Angular para Assurant, enfocado en la gestión de garantías en sitios internacionales.",
+        "Trabajo en el desarrollo de sitios específicos para reclamos de garantías en diferentes países.",
+        "Integración de un sistema de inicio de sesión preexistente del cliente al portal desarrollado.",
+        "Experiencia con la metodología Scrum utilizando AzureDevOps y Trello como herramientas.",
+        "Desarrollo de métodos en el backend con Node.js y manejo de aspectos de configuración y publicación en Azure.",
+        "Implementación de nuevas características para cumplir con las reglas de negocio y adaptación dinámica de componentes y métodos." 
       ]
     }
   ]
