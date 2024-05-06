@@ -1,17 +1,19 @@
-<h2 class="text-2xl block mb-5 mt-10 font-bold ">work expirience</h2>
-    
-@for ( work of works; track work.companyName) {
-    <div class="flex flex-row  my-8">
-        <div class="basis-2/6">{{ work.dates }}</div>
-        <div class="basis-4/6 flex flex-col">
-            <h3 class="font-bold text-lg mb-3">{{ work.companyName }}</h3>
-            <ul class="list-disc">
-                @for( item of work.descriptions; track item){
-                    <li class="ms-6">
-                        {{ item }}
-                    </li>
-                }
-            </ul>
+<div class="flex flex-col my-5">
+    <h2 class="text-2xl block my-5 font-bold ">work expirience</h2>
+        
+    @for ( work of works; track work.companyName) {
+        <div class="flex flex-row  my-8">
+            <div class="basis-2/6">{{ work.dates }}</div>
+            <div class="basis-4/6 flex flex-col">
+                <h3 class="font-bold text-lg mb-3">{{ work.companyName }}</h3>
+                <ul class="list-disc">
+                    @for( item of work.descriptions; track item){
+                        <li class="ms-6">
+                            {{ item }}
+                        </li>
+                    }
+                </ul>
+            </div>
         </div>
-    </div>
-}
+    }
+</div>

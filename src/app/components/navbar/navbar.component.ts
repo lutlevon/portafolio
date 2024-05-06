@@ -10,9 +10,16 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 })
 export class NavbarComponent {
 
-  
-
   constructor(){
-
+  }
+  scroll(id: string){
+    let element = document.getElementById(id);
+    window.scrollTo({
+      behavior: 'smooth',
+      top:
+        element!.getBoundingClientRect().top -
+        document.body.getBoundingClientRect().top -
+        65,
+    })
   }
 }

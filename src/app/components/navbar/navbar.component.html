@@ -1,16 +1,16 @@
-<nav class="flex flex-row h-8 w-full my-14">
-    <a id="about" class="nav-item border-r-2 border-l-2 rounded-sm basis-1/3 flex justify-center items-center" 
-    [routerLink]="'about'"
+<nav class="flex flex-row h-12 w-full text-xl">
+    <a class="nav-item border-r-4 border-l-4 rounded-sm basis-1/3 flex justify-center items-center" 
+    (click)="scroll('about')"
     [routerLinkActive]="'selected'">
         Acerca de mí
     </a>
-    <a id="work" class="nav-item rounded-sm basis-1/3 flex justify-center items-center" 
-    [routerLink]="'work-experience'"
+    <a class="nav-item rounded-sm basis-1/3 flex justify-center items-center" 
+    (click)="scroll('work-experience')"
     [routerLinkActive]="'selected'">
         Experiencia laboral
     </a>
-    <a class="nav-item rounded-sm  border-r-2 border-l-2 basis-1/3 flex justify-center items-center"
-    [routerLink]="'contact'"
+    <a class="nav-item rounded-sm  border-r-4 border-l-4 basis-1/3 flex justify-center items-center"
+    (click)="scroll('contact')"
     [routerLinkActive]="'selected'">
         Contacto
     </a>
