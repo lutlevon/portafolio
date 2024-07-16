@@ -10,5 +10,5 @@ export const routes: Routes = [
         { path: 'work-experience', component: WorkExperienceComponent},
         { path: 'contact', component: ContactComponent }
     ]},
-    { path: '**', redirectTo: 'home/about', pathMatch: 'full'}
+    { path: '**', redirectTo: 'home', pathMatch: 'full'}
 ];

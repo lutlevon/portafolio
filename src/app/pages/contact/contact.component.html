@@ -1,4 +1,10 @@
 <div>
-    <h2>Contacto</h2>
-    <p>corre: </p>
+    <h2 class="text-2xl block my-5 font-bold ">Contacto</h2>
+
+    <div class="flex flex-row mail">
+        <span [innerText]="'vonguzmang@gmail.com'"></span>
+        <button>
+            <img src="../../../assets/icons/icons8-copy-64.png" alt="" (click)="copy()">
+        </button>
+    </div>
 </div>
