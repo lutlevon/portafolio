@@ -1,8 +1,20 @@
 img {
-    color: white;
+    color: black;
     width: 25px;
 }
 
 .mail{
     background-color: whitesmoke;
+}
+
+.ft-primary{
+    color: rgb(231, 231, 231);
+}
+
+.ft-secondary{
+    color: #9fa3a9;
+}
+
+.ft-tertiary{
+    color: #6a6e73;
 }

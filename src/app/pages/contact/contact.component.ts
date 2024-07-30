@@ -9,7 +9,6 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   copy(){
-    navigator.clipboard.writeText('vonguzmang');
-    window.alert('Copiado!')
+    navigator.clipboard.writeText('vonguzmang@gmail.com');
   }
 }

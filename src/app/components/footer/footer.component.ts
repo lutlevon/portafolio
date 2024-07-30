@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  copy(text:string){
+    navigator.clipboard.writeText(text);
+  }
+
 }
